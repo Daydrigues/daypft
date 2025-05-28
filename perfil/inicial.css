@@ -1,0 +1,80 @@
+body {
+    background-color: deeppink;
+}
+.btn {
+  padding: 10px 30px;       /* Espaçamento interno */
+  border-radius: 25px;      /* Deixa o botão oval */
+  border-width: 2px;        /* Espessura da borda */
+  font-weight: bold;
+  cursor: pointer;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+/* Botão Lilith - rosa */
+.btn-outline-lilith {
+  color: black;
+  border: 2px solid red;
+}
+
+.btn-outline-lilith:hover {
+  background-color: red;
+  color: white;
+}
+
+/* Botão Haziel - azul */
+.btn-outline-haziel {
+  color: #1976d2;
+  border: 2px solid #1976d2;
+}
+
+.btn-outline-haziel:hover {
+  background-color: #1976d2;
+  color: white;
+}
+
+/* Botão Elara - verde */
+.btn-outline-elara {
+  color: #2e7d32;
+  border: 2px solid #2e7d32;
+}
+
+.btn-outline-elara:hover {
+  background-color: #2e7d32;
+  color: white;
+}
+
+/* Botão Larissa - roxo */
+.btn-outline-larissa {
+  color: #6a1b9a;
+  border: 2px solid #6a1b9a;
+}
+
+.btn-outline-larissa:hover {
+  background-color: #6a1b9a;
+  color: white;
+}
+
+/* Botão Canadá - vermelho */
+.btn-outline-canada {
+  color: #c62828;
+  border: 2px solid #c62828;
+}
+
+.btn-outline-canada:hover {
+  background-color: #c62828;
+  color: blue;
+}
+
+.imagem-haziel {
+  float: right;
+  width: 600px; /* Largura desejada da imagem */
+  height: 400px; /* Altura desejada da imagem */
+  margin-right: 10px;
+}
+.imagem-julieta {
+  float: center;
+  width: 600px; /* Largura desejada da imagem */
+  height: 400px; /* Altura desejada da imagem */
+  margin-right: 150px;
+}

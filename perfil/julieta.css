@@ -1,0 +1,40 @@
+body {
+    background-color: red;
+}
+.btn {
+  padding: 10px 30px;       /* Espaçamento interno */
+  border-radius: 25px;      /* Deixa o botão oval */
+  border-width: 2px;        /* Espessura da borda */
+  font-weight: bold;
+  cursor: pointer;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+btn-outline-inicio {
+  color: black;
+  border: 2px solid red;
+}
+
+btn-outline-inicio:hover {
+  background-color: red;
+  color: white;
+}
+.container {
+  display: flex;
+  align-items: center; /* Alinha verticalmente a imagem e o texto */
+  gap: 20px; /* Espaço entre imagem e texto */
+}
+
+.img-icon {
+  width: 400px; /* Tamanho da imagem */
+  height: 300px;
+  object-fit: cover; /* Ajusta a imagem para caber no tamanho */
+}
+.duas-colunas {
+  column-count: 2;        /* Divide em 2 colunas */
+  column-gap: 30px;       /* Espaço entre as colunas */
+}
+.p {
+    font-style: bold;
+}
