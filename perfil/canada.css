@@ -1,5 +1,5 @@
 body {
-    background-color: red;
+    background-color: rgb(76, 0, 255);
 }
 .btn {
   padding: 10px 30px;       /* Espaçamento interno */
@@ -13,11 +13,11 @@ body {
 
 btn-outline-inicio {
   color: black;
-  border: 2px solid red;
+  border: 2px solid rgb(76, 0, 255);
 }
 
 btn-outline-inicio:hover {
-  background-color: red;
+  background-color: rgb(76, 0, 255);
   color: white;
 }
 .container {
@@ -34,13 +34,16 @@ btn-outline-inicio:hover {
 .duas-colunas {
   column-count: 2;        /* Divide em 2 colunas */
   column-gap: 30px;       /* Espaço entre as colunas */
+  color: #fff 
 }
 .p1 {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   margin-right: 500px;
 }
-
+p1 {
+    color: #ffffff
+}
  
   #myCarousel .carousel-item img {
     width: 100%;
@@ -67,7 +70,7 @@ btn-outline-inicio:hover {
   }
 
   footer {
-  background-color: red;       /* Cor de fundo */
+  background-color: rgb(76, 0, 255);       /* Cor de fundo */
   color: #fff;                  /* Cor do texto */
   text-align: center;           /* Centraliza o texto */
   padding: 20px;                /* Espaçamento interno */
@@ -76,5 +79,3 @@ btn-outline-inicio:hover {
   bottom: 0;
   width: 100%;
   }
-
-

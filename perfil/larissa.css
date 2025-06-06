@@ -1,5 +1,5 @@
 body {
-    background-color: red;
+    background-color: rgb(162, 0, 255);
 }
 .btn {
   padding: 10px 30px;       /* Espaçamento interno */
@@ -13,11 +13,11 @@ body {
 
 btn-outline-inicio {
   color: black;
-  border: 2px solid red;
+  border: 2px solid rgb(162, 0, 255);
 }
 
 btn-outline-inicio:hover {
-  background-color: red;
+  background-color: rgb(162, 0, 255);
   color: white;
 }
 .container {
@@ -67,7 +67,7 @@ btn-outline-inicio:hover {
   }
 
   footer {
-  background-color: red;       /* Cor de fundo */
+  background-color: rgb(162, 0, 255);       /* Cor de fundo */
   color: #fff;                  /* Cor do texto */
   text-align: center;           /* Centraliza o texto */
   padding: 20px;                /* Espaçamento interno */
@@ -76,5 +76,3 @@ btn-outline-inicio:hover {
   bottom: 0;
   width: 100%;
   }
-
-
